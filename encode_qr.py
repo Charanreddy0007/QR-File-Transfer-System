@@ -9,7 +9,7 @@ import numpy as np
 # Settings
 
 file = "text.txt"
-nuber_chunk = 1000
+nuber_chunk = 750
 
 # Read file 
 
@@ -62,7 +62,8 @@ for i in range(total_chunks):
 
     if go == "go":
 
+        print(i)
         img = qrcode.make(packets[int(i)])
-        time.sleep(0.5)
-        img.save("First_img.png")
+        time.sleep(1)
+        img.save("QR.png")
 
