@@ -1,20 +1,20 @@
 #  QR File Transfer Experiment
 
-> “What if two laptops could transfer files just by staring at each other?” 👀
+> “What if two laptops could transfer files just by staring at each other?” 
 
 This project is a fun Python experiment that transfers files using dynamically changing QR codes.
 
-It is **NOT practical for large files** 😅  
-It is **NOT faster than WiFi, Bluetooth, USB, or literally anything modern** 😂
+It is **NOT practical for large files**   
+It is **NOT faster than WiFi, Bluetooth, USB, or literally anything modern** 
 
 But it *does* prove that data can be transferred visually through QR codes between two systems.
 
 ---
 
-# 🎥 How This Weird Thing Works
+#  How This Weird Thing Works
 
-One laptop becomes the **Sender** 📤  
-Another laptop becomes the **Receiver** 📥
+One laptop becomes the **Sender**   
+Another laptop becomes the **Receiver** 
 
 The sender:
 - Reads a file
@@ -33,7 +33,7 @@ Basically:
 Laptop A 👁️ ---> 👁️ Laptop B
 ```
 
-The laptops literally need to **see each other** for this to work 😂
+The laptops literally need to **see each other** for this to work 
 
 ---
 
@@ -51,11 +51,11 @@ This project is NOT:
 - Fast
 - Smart enough for huge files
 
-Trying to transfer a movie file with this is basically self-torture 💀
+Trying to transfer a movie file with this is basically self-torture 
 
 ---
 
-# 📂 Project Structure
+#  Project Structure
 
 ```bash
 ├── encode_qr.py      # Sender script
@@ -67,7 +67,7 @@ Trying to transfer a movie file with this is basically self-torture 💀
 
 ---
 
-# 🛠️ Requirements
+#  Requirements
 
 Install dependencies:
 
@@ -77,9 +77,9 @@ pip install qrcode opencv-python pyzbar pillow numpy
 
 ---
 
-# 🚀 Setup Guide
+#  Setup Guide
 
-# 🖥️ Sender System
+#  Sender System
 
 The system that wants to SEND the file should run:
 
@@ -151,7 +151,7 @@ camera = cv2.VideoCapture(0)
 The receiver camera must physically SEE the sender's QR code screen.
 
 YES.  
-The laptops literally need eye contact. 😂
+The laptops literally need eye contact. 
 
 You can:
 - Point one laptop camera at another screen
@@ -161,7 +161,7 @@ You can:
 
 ---
 
-# ▶️ How To Run
+# ▶ How To Run
 
 ## Step 1 — Start Sender
 
@@ -197,7 +197,7 @@ The webcam window opens and starts scanning QR codes.
 
 ---
 
-## Step 3 — Wait Patiently 😅
+## Step 3 — Wait Patiently 
 
 As QR codes are scanned:
 
@@ -217,7 +217,7 @@ File saved as recived_text.txt
 
 ---
 
-# 🧠 What This Project Demonstrates
+#  What This Project Demonstrates
 
 This experiment combines:
 
@@ -232,7 +232,7 @@ It’s basically a tiny visual data transmission system.
 
 ---
 
-# 🐢 Why It’s Slow
+#  Why It’s Slow
 
 Because:
 - QR codes have size limits
@@ -243,7 +243,7 @@ Because:
 
 ---
 
-# 🔮 Future Improvements
+#  Future Improvements
 
 Maybe someday this can become:
 
@@ -258,16 +258,16 @@ Or maybe it remains a cursed science experiment forever
 
 ---
 
-# 💡 Fun Fact
+#  Fun Fact
 
 This is technically a form of:
 - Optical data transfer
 - Visual communication
-- Human-visible networking 😂
+- Human-visible networking 
 
 ---
 
-# ❤️ Final Note
+#  Final Note
 
 This project was made for:
 - Learning
@@ -282,6 +282,6 @@ Not for replacing:
 
 ---
 
-# 📜 License
+#  License
 
 Free to use, modify, break, and experiment with.
